@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b1b1b;
+    color: #fff;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #800000;
+    padding: 20px;
+    color: #ffd700;
+  }
+  
+  .menu button {
+    background-color: #800000;
+    border: none;
+    color: #ffd700;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .menu button:hover {
+    background-color: #aa0000;
+  }
+  
+  .exchange-rate, .buy-crypto {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #3d2a2a;
+    border-radius: 8px;
+    color: #ffd700;
+  }
+  
+  .exchange-rate ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exchange-rate li {
+    margin: 10px 0;
+  }
+  
+  .buy-crypto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .buy-crypto label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .buy-crypto input, .buy-crypto select {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #800000;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #800000;
+    color: #ffd700;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+  }
+  
+  .submit-button.active {
+    cursor: pointer;
+    background-color: #aa0000;
+  }
